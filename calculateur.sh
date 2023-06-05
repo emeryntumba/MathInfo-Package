@@ -11,6 +11,17 @@ software_list=(
   "git"
   "python3"
   "netcat"
+  "gummi"
+  "anjuta"
+  "libreoffice"
+  "gcc"
+  "g++"
+  "vim"
+  "apache2"
+  "mysql-server"
+  "virtualbox"
+  "wireshark"
+  "default-jdk"
 )
 
 # Print a list of the proposed software
