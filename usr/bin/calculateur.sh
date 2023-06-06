@@ -22,6 +22,26 @@ software_list=(
   "virtualbox"
   "wireshark"
   "default-jdk"
+  "notepadqq"
+  "koffice" 
+  "libreoffice"
+  "gnome-documents gnome-calculator gnome-calendar gnome-contacts gnome-characters"
+  "gnumeric"
+  "libreoffice-calc"
+  "subversion" 
+  "bind9"
+  "default-jre"
+  "ufw"
+  "iptables -L"
+  "ipfilter"
+  "doxygen"
+  "flex"
+  "bison"
+  "gcc"
+  "anjuta"
+  "codeblocks"
+  "wxdsgn"
+
 )
 
 # Print a list of the proposed software
