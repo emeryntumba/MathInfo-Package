@@ -1,0 +1,9 @@
+Package:mathinfoapp
+Version:1.0.0
+Section:base
+Priority:optional
+Architecture:all
+Depends:bash
+Maintainer: EmeryNTUMBA<emeryntumba39@gmail.com>
+Description: this package contains the basic programs and tools for all computer science student
+Homepage: package-mathinfo.genielectrik.com
