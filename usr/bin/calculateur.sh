@@ -2,7 +2,7 @@
 
 #updating apt && installing software-properties-common
 sudo apt update
-sudo apt install software-properties-common
+#sudo apt install software-properties-common
 
 # Declare a list of software to propose for installation
 software_list=(
@@ -83,4 +83,10 @@ else
       break
     fi
   done
+fi
+
+#Check if the user wants to download Ubuntu Image 
+read -p "Do you want to download Ubuntu Image AMD64 ? (y/n) " response
+if [[ $response = "y" ]]; then
+  sh ubuntu-downloader.sh
 fi

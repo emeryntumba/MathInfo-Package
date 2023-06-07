@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+echo "Nous précedons à la desinstalltion du package, si vous pensez que c'est une erreur annuler le processus"
+
+exit 0

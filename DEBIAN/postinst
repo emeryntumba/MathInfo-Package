@@ -1,3 +1,8 @@
 #!/bin/bash
 
-echo "Fin de l'installation, amusez vous bien"
+set -e
+
+echo "Fin de l'installation, amusez vous bien, si vous avez choisi de telecharger ubuntu, trouvez son image dans votre repertoire de téléchargement par défaut
+Merci d'utiliser notre package !"
+
+exit 0

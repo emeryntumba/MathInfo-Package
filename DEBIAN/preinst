@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+echo "Nous mettons APT à jour pour vous, afin de poursuivre l'installation"
+
+exit 0
