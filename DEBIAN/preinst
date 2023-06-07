@@ -2,6 +2,6 @@
 
 set -e
 
-echo "Nous mettons APT à jour pour vous, afin de poursuivre l'installation"
+echo "Nous procedons à l'installation du package"
 
 exit 0

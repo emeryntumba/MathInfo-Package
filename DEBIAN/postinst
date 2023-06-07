@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Fin de l'installation, amusez vous bien, si vous avez choisi de telecharger ubuntu, trouvez son image dans votre repertoire de téléchargement par défaut
+echo "Fin de l'installation
 Merci d'utiliser notre package !"
 
 exit 0
