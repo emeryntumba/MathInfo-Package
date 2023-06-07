@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 
 echo "We are udpating APT to ensure that all your programs that will be installed are the latest official versions"
 #updating apt && installing software-properties-common
@@ -90,7 +91,15 @@ fi
 #Check if the user wants to download Ubuntu Image 
 read -p "Do you want to download Ubuntu Image AMD64 ? (y/n) " response
 if [[ $response = "y" ]]; then
-  sh ubuntu-downloader.sh
+  VERSION="21.04"
+  ARCHITECTURE="amd64"
+  URL="http://releases.ubuntu.com/${VERSION}/ubuntu-${VERSION}-desktop-${ARCHITECTURE}.iso"
+  DESTINATION="$HOME/Downloads/"
+
+  wget -P "$DESTINATION" "$URL"
+  echo "Find your Ubuntu Image ISO to your default Downloads folder"
 fi
 
 echo "Thank you for using our package"
+
+exit 0
