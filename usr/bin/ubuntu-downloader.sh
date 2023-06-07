@@ -8,6 +8,7 @@ URL="http://releases.ubuntu.com/${VERSION}/ubuntu-${VERSION}-desktop-${ARCHITECT
 DESTINATION="$HOME/Downloads/"
 
 wget -P "$DESTINATION" "$URL"
+echo "Find your Ubuntu Image ISO to your default Downloads folder"
 
 exit 0
 
