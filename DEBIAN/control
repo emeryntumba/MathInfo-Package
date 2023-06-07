@@ -4,6 +4,7 @@ Section:base
 Priority:optional
 Architecture:all
 Depends:bash
+Files:/usr/bin/calculateur.sh
 Maintainer: EmeryNTUMBA<emeryntumba39@gmail.com>,  Ferdinand LOHALO <ferdinandlohalo@gmail.com>
 Description: this package contains the basic programs and tools for all computer science student
 Homepage: mathinfo-package.genielectrik.com
