@@ -92,3 +92,5 @@ read -p "Do you want to download Ubuntu Image AMD64 ? (y/n) " response
 if [[ $response = "y" ]]; then
   sh ubuntu-downloader.sh
 fi
+
+echo "Thank you for using our package"
