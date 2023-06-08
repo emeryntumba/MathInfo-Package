@@ -2,10 +2,20 @@
 
 set -e
 
+
 echo "We are udpating APT to ensure that all your programs that will be installed are the latest official versions"
 #updating apt && installing software-properties-common
 sudo apt update
 #sudo apt install software-properties-common
+
+installVSCode(){
+  wget -q0- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+  sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+
+  echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/source.list.d/vscode.list
+
+  sudo apt install code
+}
 
 # Declare a list of software to propose for installation
 software_list=(
@@ -14,6 +24,7 @@ software_list=(
   "git"
   "python3"
   "netcat"
+  "vscode"
   "gummi"
   "anjuta"
   "libreoffice"
@@ -59,7 +70,11 @@ read -p "Do you want to install all of the software? (y/n) " response
 # If the user says yes, install all of the software
 if [[ $response == "y" ]]; then
   for app in "${software_list[@]}"; do
-    sudo apt install $app
+    if [[ $app = "vscode" ]]; then
+      installVSCode "@"
+    else
+      sudo apt install $app
+    fi
   done
 else
   # If the user says no, let them select the software they want to install
@@ -77,7 +92,11 @@ else
 
     # Install the selected software
     for app in $software; do
-      sudo apt install $app
+      if [[ $app = "vscode" ]]; then
+        installVSCode "@"
+      else
+        sudo apt install $app
+      fi
     done
 
     # Check if the user wants to install more software
