@@ -9,53 +9,62 @@ sudo apt update
 #sudo apt install software-properties-common
 
 installVSCode(){
-  wget -q0- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-  sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
-
-  echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/source.list.d/vscode.list
-
-  sudo apt install code
+  wget -O code.deb https://update.code.visualstudio.com/latest/linux-deb-x64/stable
+  sudo apt install code.deb
 }
+
+downloadPfSence(){
+  echo "Downloading archive ISO Image pfSence"
+  wget -O pfsene.iso.gz https://atxfiles.netgate.com/mirror/downloads/pfSense-CE-2.6.0-RELEASE-amd64.iso.gz
+  echo "Find your pfSence Image to your default download folder"
+}
+
+downloadUbuntu(){
+  VERSION="21.04"
+  ARCHITECTURE="amd64"
+  URL="http://releases.ubuntu.com/${VERSION}/ubuntu-${VERSION}-desktop-${ARCHITECTURE}.iso"
+  DESTINATION="$HOME/Downloads/"
+
+  wget -P "$DESTINATION" "$URL"
+  echo "Find your Ubuntu Image ISO to your default Downloads folder"
+}
+
+#Part 1 of package
 
 # Declare a list of software to propose for installation
 software_list=(
-  "firefox"
-  "vim"
-  "git"
-  "python3"
-  "netcat"
-  "vscode"
-  "gummi"
-  "anjuta"
-  "libreoffice"
-  "gcc"
-  "g++"
-  "vim"
-  "apache2"
-  "mysql-server"
-  "virtualbox"
-  "wireshark"
-  "default-jdk"
+  "ubuntu"
   "notepadqq"
-  "koffice" 
+  "firefox"
+  "gummi"
   "libreoffice"
   "gnome-documents gnome-calculator gnome-calendar gnome-contacts gnome-characters"
   "gnumeric"
   "libreoffice-calc"
-  "subversion" 
+  "subversion"
   "bind9"
-  "default-jre"
+  "apache2"
+  "gufw"
   "ufw"
-  "iptables -L"
-  "ipfilter"
+  "iptables"
+  "pfsence"
   "doxygen"
   "flex"
   "bison"
   "gcc"
+
   "anjuta"
   "codeblocks"
-  "wxdsgn"
-
+  "git"
+  "python3"
+  "netcat"
+  "vscode"
+  "vim"
+  "g++"
+  "virtualbox"
+  "wireshark"
+  "default-jdk"
+  "default-jre"
 )
 
 # Print a list of the proposed software
@@ -71,7 +80,11 @@ read -p "Do you want to install all of the software? (y/n) " response
 if [[ $response == "y" ]]; then
   for app in "${software_list[@]}"; do
     if [[ $app = "vscode" ]]; then
-      installVSCode "@"
+      installVSCode
+    elif [[ $app = 'ubuntu' ]] then
+      downloadUbuntu
+    elif [[ $app = "pfsence"]] then
+      downloadPfSence
     else
       sudo apt install $app
     fi
@@ -93,7 +106,11 @@ else
     # Install the selected software
     for app in $software; do
       if [[ $app = "vscode" ]]; then
-        installVSCode "@"
+        installVSCode
+      elif [[ $app = 'ubuntu' ]] then
+        downloadUbuntu
+      elif [[ $app = "pfsence"]] then
+        downloadPfSence
       else
         sudo apt install $app
       fi
@@ -105,18 +122,6 @@ else
       break
     fi
   done
-fi
-
-#Check if the user wants to download Ubuntu Image 
-read -p "Do you want to download Ubuntu Image AMD64 ? (y/n) " response
-if [[ $response = "y" ]]; then
-  VERSION="21.04"
-  ARCHITECTURE="amd64"
-  URL="http://releases.ubuntu.com/${VERSION}/ubuntu-${VERSION}-desktop-${ARCHITECTURE}.iso"
-  DESTINATION="$HOME/Downloads/"
-
-  wget -P "$DESTINATION" "$URL"
-  echo "Find your Ubuntu Image ISO to your default Downloads folder"
 fi
 
 echo "Thank you for using our package"
