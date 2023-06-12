@@ -1,4 +1,4 @@
-```
+```markdown
 # Package d'outils de base pour étudiants en informatique
 
 Ce package est spécialement conçu pour les étudiants en informatique et regroupe une sélection de logiciels essentiels. Il offre un ensemble d'outils et d'applications qui couvrent les besoins courants en matière de programmation, de développement, de productivité et de réseau.
@@ -28,20 +28,21 @@ Ce package est spécialement conçu pour les étudiants en informatique et regro
 - **Vim**: Éditeur de texte en ligne de commande avec des fonctionnalités avancées pour les utilisateurs expérimentés.
 - **G++**: Compilateur C++ pour le développement d'applications et de logiciels.
 - **VirtualBox**: Plateforme de virtualisation pour exécuter plusieurs systèmes d'exploitation sur une seule machine.
-- **Wireshark**: Outil d'analyse de réseau pour capturer et inspecter les paquets de données.
-- **Default JDK, Default JRE**: Environnement de développement Java par défaut et environnement d'exécution Java par défaut.
+- **Wireshark**: Outil d'
+
+analyse de réseau pour examiner le trafic réseau et dépanner les problèmes.
 
 ## Procédure d'installation
 
-1. Téléchargez le package depuis [mysite.com/package.deb](https://www.mathinfo-package.genielectrik.com/downloads/package.deb).
-2. Placez-vous dans le répertoire des téléchargements.
+1. Téléchargez le package depuis [mathinfo-package.genielectrik.com/download/mathinfo-package.deb](https://www.mathinfo-package.genielectrik.com/download/mathinfo-package.deb)
+2. Placez-vous dans le répertoire de téléchargement.
 3. Exécutez la commande suivante en tant qu'utilisateur root pour installer le package :
 
    ```
    sudo dpkg -i mathinfo-package.deb
    ```
 
-4. Après l'installation, vous pouvez exécuter le package en utilisant la commande suivante :
+4. Après l'installation, vous pouvez lancer le package en utilisant la commande suivante :
 
    ```
    mathinfo-package
@@ -49,7 +50,7 @@ Ce package est spécialement conçu pour les étudiants en informatique et regro
 
 Profitez de cette collection d'outils logiciels pour faciliter votre parcours d'étudiant en informatique et améliorer votre productivité dans vos projets et études. N'hésitez pas à explorer chaque logiciel pour en découvrir les fonctionnalités et les avantages.
 
+Si vous rencontrez un problème lors de l'installation ou d'utilisation, reportez le à : [mathinfo-package.genielectrik.com/report](https://www.mathinfo-package.genielectrik.com/report)
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 ```
-
-Si vous rencontrez un bug et un problème lors d'utilisation du package, svp reportez le nous à (mathinfo-package.genielectrik.com/report) (https://www.mathinfo-package.genielectrik.com/report)
