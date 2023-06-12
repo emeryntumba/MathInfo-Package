@@ -1,33 +1,55 @@
-# LES PROGRAMMES DE BASE POUR UN ETUDIANT EN INFORMATIQUE ✅
+```
+# Package d'outils de base pour étudiants en informatique
 
-1.	gcc : Compilateur C - Utilisé pour compiler des programmes écrits en langage C.
-2.	g++ : Compilateur C++ - Utilisé pour compiler des programmes écrits en langage C++.
-3.	python : Langage de programmation Python - Utilisé pour le développement d'applications, l'automatisation de tâches et bien d'autres choses encore.
-4.	default-jdk : Plateforme de développement Java - Fournit les outils nécessaires pour développer et exécuter des applications Java.
-5.	git : Système de contrôle de version - Utilisé pour suivre les modifications apportées aux fichiers de code source et faciliter la collaboration entre les développeurs.
-6.	vim : Éditeur de texte avancé en ligne de commande - Permet d'éditer des fichiers texte à partir de la ligne de commande avec des fonctionnalités avancées.
-7.	netcat : Outil de communication réseau - Permet d'établir des connexions réseau, d'envoyer et de recevoir des données sur des ports spécifiques.
-8.	wireshark : Analyseur de protocole réseau - Utilisé pour capturer et analyser le trafic réseau afin de diagnostiquer les problèmes et d'étudier les protocoles.
-09.	mysql-server : Serveur de base de données MySQL - Permet de gérer et d'accéder à des bases de données MySQL.
-10.	apache2 : Serveur web Apache - Fournit un environnement pour héberger des sites web et des applications web.
-11.	virtualbox : Plateforme de virtualisation - Permet de créer et de gérer des machines virtuelles sur un système hôte.
-12.	"notepadqq" : Notepadqq est un éditeur de texte similaire à Notepad++ qui est conçu pour les systèmes Linux. Il fournit des fonctionnalités avancées d'édition de texte et de développement de logiciels.
-13.	"koffice" : KOffice était une suite bureautique pour les environnements de bureau KDE, mais il a été remplacé par Calligra Suite. KOffice offrait des applications telles que KWord (traitement de texte), KSpread (tableur), KPresenter (présentation), etc.
-14.	"libreoffice" : LibreOffice est une suite bureautique populaire et open source qui comprend des applications telles que Writer (traitement de texte), Calc (tableur), Impress (présentation), etc. Elle est compatible avec de nombreux formats de fichiers, y compris ceux de Microsoft Office.
-15.	"gnome-documents gnome-calculator gnome-calendar gnome-contacts gnome-characters" : Ce sont des paquets liés à l'environnement de bureau GNOME. "gnome-documents" est une application de gestion de documents, "gnome-calculator" est une calculatrice, "gnome-calendar" est un calendrier, "gnome-contacts" est un gestionnaire de contacts et "gnome-characters" permet d'insérer des caractères spéciaux.
-16.	"gnumeric" : Gnumeric est une application de tableur open source qui fait partie de l'environnement de bureau GNOME. Il offre des fonctionnalités avancées de manipulation de données et de calculs.
-17.	"libreoffice-calc" : Il s'agit du composant Calc de la suite bureautique LibreOffice. Calc est une application de tableur offrant une large gamme de fonctionnalités pour l'analyse et la manipulation de données.
-18.	"subversion" : Subversion, également connu sous le nom de SVN, est un système de contrôle de version populaire utilisé pour suivre les modifications apportées aux fichiers et aux répertoires dans un projet de développement logiciel.
-19.	"bind9" : BIND9 est un serveur DNS (Domain Name System) open source. Il est utilisé pour la résolution des noms de domaine et la gestion des enregistrements DNS.
-20.	"default-jre" : Ce paquet installe la version par défaut de l'environnement d'exécution Java (JRE) sur votre système. Il permet d'exécuter des applications Java.
-21.	"ufw" : UFW (Uncomplicated Firewall) est une interface utilisateur simplifiée pour configurer le pare-feu iptables sur Linux. Il permet de gérer les règles de filtrage des paquets de manière conviviale.
-22.	"iptables -L" : C'est une commande pour afficher les règles de filtrage actuelles du pare-feu iptables sur votre système.
-23.	"ipfilter" : Il s'agit d'un logiciel de filtrage de paquets pour certains systèmes d'exploitation, mais il n'est pas couramment utilisé sur les distributions Linux. Veuillez noter que les détails spécifiques de ce paquet peuvent varier en fonction de la distribution utilisée.
-24.	"doxygen" : Doxygen est un outil de génération de documentation pour les projets logiciels. Il peut extraire automatiquement la documentation à partir du code source et générer des fichiers
-25.	"doxygen" : Doxygen est un outil de génération de documentation pour les projets logiciels. Il peut extraire automatiquement la documentation à partir du code source et générer des fichiers HTML, PDF, et d'autres formats de sortie. Doxygen est couramment utilisé pour documenter les projets en C++, C, Java, Python et d'autres langages.
-26.	"flex" : Flex est un générateur d'analyseurs lexicaux (analyseurs de lexèmes) utilisé pour analyser les chaînes de caractères en entrée et les diviser en jetons (tokens). Il est souvent utilisé conjointement avec Bison (un générateur d'analyseurs syntaxiques) pour créer des analyseurs complets.
-27.	"bison" : Bison est un générateur d'analyseurs syntaxiques (analyseurs de grammaire) utilisé pour analyser la structure syntaxique d'un programme. Il permet de définir des règles grammaticales et de générer du code C ou C++ pour analyser les entrées conformes à cette grammaire.
-28.	"gcc" : GCC (GNU Compiler Collection) est un ensemble de compilateurs open source qui prend en charge plusieurs langages de programmation, notamment C, C++, Objective-C, Fortran, Ada et d'autres. GCC est l'un des compilateurs les plus utilisés dans le développement de logiciels sur les systèmes Linux.
-29.	"anjuta" : Anjuta est un environnement de développement intégré (IDE) pour la programmation en C et C++ sous l'environnement de bureau GNOME. Il fournit des fonctionnalités telles que l'édition de code, le débogage, la gestion de projets et l'intégration avec d'autres outils de développement.
-30.	"codeblocks" : Code::Blocks est un autre environnement de développement intégré (IDE) populaire pour la programmation en C, C++ et Fortran. Il est extensible et peut être utilisé avec différents compilateurs. Code::Blocks fournit une interface conviviale pour l'édition de code, le débogage et la gestion de projets.
-31.	"wxdsgn" : wxDev-C++ est une version adaptée de l'IDE Dev-C++ pour les systèmes Linux. Il est basé sur la bibliothèque wxWidgets et offre un environnement de développement pour la programmation en C et C++.
+Ce package est spécialement conçu pour les étudiants en informatique et regroupe une sélection de logiciels essentiels. Il offre un ensemble d'outils et d'applications qui couvrent les besoins courants en matière de programmation, de développement, de productivité et de réseau.
+
+## Liste des logiciels inclus
+
+- **Ubuntu**: Système d'exploitation Linux populaire et convivial pour une expérience informatique complète.
+- **Notepadgg**: Éditeur de texte léger et intuitif pour prendre des notes et éditer du code.
+- **Firefox**: Navigateur Web rapide, sécurisé et hautement personnalisable.
+- **Gummi**: Éditeur LaTeX simple à utiliser pour la rédaction de documents scientifiques.
+- **LibreOffice**: Suite bureautique complète incluant un traitement de texte, un tableur, un logiciel de présentation, etc.
+- **GNOME Documents, GNOME Calculator, GNOME Calendar, GNOME Contacts, GNOME Characters**: Applications GNOME pour organiser vos documents, effectuer des calculs, gérer votre calendrier, gérer vos contacts et accéder à des caractères spéciaux.
+- **Gnumeric**: Tableur puissant pour effectuer des calculs et des analyses de données avancées.
+- **LibreOffice Calc**: Application de feuille de calcul de la suite LibreOffice pour manipuler et analyser des données.
+- **Subversion**: Système de contrôle de version pour le suivi des modifications du code source.
+- **Bin9**: Bibliothèque de liaison légère pour faciliter le développement de logiciels.
+- **Apache2**: Serveur Web puissant et flexible pour héberger des sites et des applications Web.
+- **Gufw, UFW, iptables**: Outils de pare-feu pour sécuriser votre système et contrôler le trafic réseau.
+- **PfSense**: Solution de pare-feu open-source pour la gestion avancée des réseaux.
+- **Doxygen**: Générateur de documentation pour les projets de développement logiciel.
+- **Flex, Bison, GCC**: Outils de développement pour la création de compilateurs et d'interprètes.
+- **Anjuta, CodeBlocks**: Environnements de développement intégrés (IDE) pour la programmation en C, C++ et autres langages.
+- **Git**: Système de contrôle de version distribué pour la collaboration sur les projets de développement.
+- **Python3**: Langage de programmation interprété polyvalent pour le développement d'applications et de scripts.
+- **Netcat**: Outil de communication réseau polyvalent pour l'envoi et la réception de données.
+- **Visual Studio Code**: Éditeur de code léger et puissant avec une large gamme d'extensions.
+- **Vim**: Éditeur de texte en ligne de commande avec des fonctionnalités avancées pour les utilisateurs expérimentés.
+- **G++**: Compilateur C++ pour le développement d'applications et de logiciels.
+- **VirtualBox**: Plateforme de virtualisation pour exécuter plusieurs systèmes d'exploitation sur une seule machine.
+- **Wireshark**: Outil d'analyse de réseau pour capturer et inspecter les paquets de données.
+- **Default JDK, Default JRE**: Environnement de développement Java par défaut et environnement d'exécution Java par défaut.
+
+## Procédure d'installation
+
+1. Téléchargez le package depuis [mysite.com/package.deb](https://www.mathinfo-package.genielectrik.com/downloads/package.deb).
+2. Placez-vous dans le répertoire des téléchargements.
+3. Exécutez la commande suivante en tant qu'utilisateur root pour installer le package :
+
+   ```
+   sudo dpkg -i mathinfo-package.deb
+   ```
+
+4. Après l'installation, vous pouvez exécuter le package en utilisant la commande suivante :
+
+   ```
+   mathinfo-package
+   ```
+
+Profitez de cette collection d'outils logiciels pour faciliter votre parcours d'étudiant en informatique et améliorer votre productivité dans vos projets et études. N'hésitez pas à explorer chaque logiciel pour en découvrir les fonctionnalités et les avantages.
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+```
+
+Si vous rencontrez un bug et un problème lors d'utilisation du package, svp reportez le nous à (mathinfo-package.genielectrik.com/report) (https://www.mathinfo-package.genielectrik.com/report)
