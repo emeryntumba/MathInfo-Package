@@ -81,9 +81,9 @@ if [[ $response == "y" ]]; then
   for app in "${software_list[@]}"; do
     if [[ $app = "vscode" ]]; then
       installVSCode
-    elif [[ $app = 'ubuntu' ]] then
+    elif [[ $app = "ubuntu" ]]; then
       downloadUbuntu
-    elif [[ $app = "pfsence"]] then
+    elif [[ $app = "pfsence" ]]; then
       downloadPfSence
     else
       sudo apt install $app
@@ -107,9 +107,9 @@ else
     for app in $software; do
       if [[ $app = "vscode" ]]; then
         installVSCode
-      elif [[ $app = 'ubuntu' ]] then
+      elif [[ $app = "ubuntu" ]]; then
         downloadUbuntu
-      elif [[ $app = "pfsence"]] then
+      elif [[ $app = "pfsence" ]]; then
         downloadPfSence
       else
         sudo apt install $app
