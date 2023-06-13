@@ -1,4 +1,4 @@
-```markdown
+
 # Package d'outils de base pour étudiants en informatique
 
 Ce package est spécialement conçu pour les étudiants en informatique et regroupe une sélection de logiciels essentiels. Il offre un ensemble d'outils et d'applications qui couvrent les besoins courants en matière de programmation, de développement, de productivité et de réseau.

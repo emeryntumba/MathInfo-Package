@@ -16,7 +16,7 @@ installVSCode(){
 downloadPfSence(){
   echo "Downloading archive ISO Image pfSence"
   wget -O pfsene.iso.gz https://atxfiles.netgate.com/mirror/downloads/pfSense-CE-2.6.0-RELEASE-amd64.iso.gz
-  echo "Find your pfSence Image to your default download folder"
+  echo "Find your pfSence Image to your personal folder"
 }
 
 downloadUbuntu(){
@@ -25,8 +25,8 @@ downloadUbuntu(){
   URL="http://releases.ubuntu.com/${VERSION}/ubuntu-${VERSION}-desktop-${ARCHITECTURE}.iso"
   DESTINATION="$HOME/Downloads/"
 
-  wget -P "$DESTINATION" "$URL"
-  echo "Find your Ubuntu Image ISO to your default Downloads folder"
+  wget -O ubuntu.iso "$URL"
+  echo "Find your Ubuntu Image ISO to your personal folder"
 }
 
 #Part 1 of package
