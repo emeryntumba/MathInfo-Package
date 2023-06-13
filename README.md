@@ -28,9 +28,7 @@ Ce package est spécialement conçu pour les étudiants en informatique et regro
 - **Vim**: Éditeur de texte en ligne de commande avec des fonctionnalités avancées pour les utilisateurs expérimentés.
 - **G++**: Compilateur C++ pour le développement d'applications et de logiciels.
 - **VirtualBox**: Plateforme de virtualisation pour exécuter plusieurs systèmes d'exploitation sur une seule machine.
-- **Wireshark**: Outil d'
-
-analyse de réseau pour examiner le trafic réseau et dépanner les problèmes.
+- **Wireshark**: Outil d'analyse de réseau pour examiner le trafic réseau et dépanner les problèmes.
 
 ## Procédure d'installation
 
@@ -53,4 +51,3 @@ Profitez de cette collection d'outils logiciels pour faciliter votre parcours d'
 Si vous rencontrez un problème lors de l'installation ou d'utilisation, reportez le à : [mathinfo-package.genielectrik.com/report](https://www.mathinfo-package.genielectrik.com/report)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
-```
