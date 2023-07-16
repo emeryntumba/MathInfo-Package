@@ -48,6 +48,9 @@ Ce package est spécialement conçu pour les étudiants en informatique et regro
 
 Profitez de cette collection d'outils logiciels pour faciliter votre parcours d'étudiant en informatique et améliorer votre productivité dans vos projets et études. N'hésitez pas à explorer chaque logiciel pour en découvrir les fonctionnalités et les avantages.
 
-Si vous rencontrez un problème lors de l'installation ou d'utilisation, reportez le à : [mathinfo-package.genielectrik.com/report](https://www.mathinfo-package.genielectrik.com/report)
+5. Si vous rencontrez un problème lors de l'installation ou d'utilisation, reportez le à : [mathinfo-package.genielectrik.com/report](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UjKPkxUNUg3TUw0UEo0SldHWjNFMjBGOVFWSFJKRy4u)
+
+6. Si vous voulez désinstaller le package prière de nous dire le pour quoi de votre méfiance à ce package (soit vos suggestions
+   celà nous permettra d'améliorer d'avance ce package), faites nous parvenir sur ce lien: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UjKPkxUME0zNzdNVVdMNkNDV0xIVEJTTTU3RFlLUC4u 
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
