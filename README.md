@@ -65,7 +65,7 @@ Profitez de cette collection d'outils logiciels pour faciliter votre parcours d'
       2. MOKE NGOMIA Glory
 
    7.3 Readme et Documentation
-      1. KONGOL MAND'A MUSAS François-Xavier
+      1. KONGOL MAND' A MUSAS François-Xavier
       2. ZWABUDI MOKE Emmanuel
       3. MBAMBI MAYELE Phillipe
 
