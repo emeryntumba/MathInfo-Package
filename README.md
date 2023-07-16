@@ -51,6 +51,26 @@ Profitez de cette collection d'outils logiciels pour faciliter votre parcours d'
 5. Si vous rencontrez un problème lors de l'installation ou d'utilisation, reportez le à : (https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UjKPkxUNUg3TUw0UEo0SldHWjNFMjBGOVFWSFJKRy4u)
 
 6. Si vous voulez désinstaller le package prière de nous dire le pour quoi de votre méfiance à ce package (soit vos suggestions
-   celà nous permettra d'améliorer d'avance ce package), faites nous parvenir sur ce lien: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UjKPkxUME0zNzdNVVdMNkNDV0xIVEJTTTU3RFlLUC4u 
+   celà nous permettra d'améliorer d'avance ce package), faites nous parvenir sur ce lien: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UjKPkxUME0zNzdNVVdMNkNDV0xIVEJTTTU3RFlLUC4u
+
+7. A propos du Travail:
+
+   7.1 Programmation
+      1. NTUMBA BUKASA Emery
+      2. DJUNGU LOHALO Ferdinand
+      3. SIMBA ELIKYA Josué
+
+   7.2 Téléchargent logiciels et hebergement
+      1. KABANGU LUSHIMBA Hervé
+      2. MOKE NGOMIA Glory
+
+   7.3 Readme et Documentation
+      1. KONGOL MAND'A MUSAS François-Xavier
+      2. ZWABUDI MOKE Emmanuel
+      3. MBAMBI MAYELE Phillipe
+
+   7.4 Rapport et Formulaires
+      1. KUMALA SADISA Ben
+      2. MASUEKO MBAMBI Rabby
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
