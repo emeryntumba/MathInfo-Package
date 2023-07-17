@@ -1,7 +1,17 @@
 
-# Package d'outils de base pour étudiants en informatique
+# Package d'outils de base pour étudiants en informatique et mathématiques
 
-Ce package est spécialement conçu pour les étudiants en informatique et regroupe une sélection de logiciels essentiels. Il offre un ensemble d'outils et d'applications qui couvrent les besoins courants en matière de programmation, de développement, de productivité et de réseau.
+#A propos du travail:
+
+Ce présent projet est un travail pratique donné dans le cadre du cours de calculateur dispensé par le Professseur Docteur
+Christian BOPE de l'Université de Kinshasa (UNIKIN), Faculté de sciences, Département de Math-Info, avec la collaboration 
+ses assistants dont: Jacques MAYOMBO et Senghor. 
+vu certaines difficultés rencontrées, ce present projet viens relevé certains fleaux. 
+
+
+#Description du Projet:
+
+Ce package est spécialement conçu pour les étudiants en informatique et mathématique et regroupe une sélection de logiciels essentiels. Il offre un ensemble d'outils et d'applications qui couvrent les besoins courants en matière de programmation, de développement, de productivité et de réseau. le client aura la possibilité de télécharger le package, de l'installer, et exécuter pour choisir quelques logiciels de base qu'il voudra installé pour l'utilisation quotidienne. 
 
 ## Liste des logiciels inclus
 
@@ -53,7 +63,7 @@ Profitez de cette collection d'outils logiciels pour faciliter votre parcours d'
 6. Si vous voulez désinstaller le package prière de nous dire le pour quoi de votre méfiance à ce package (soit vos suggestions
    celà nous permettra d'améliorer d'avance ce package), faites nous parvenir sur ce lien: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__UjKPkxUME0zNzdNVVdMNkNDV0xIVEJTTTU3RFlLUC4u
 
-7. A propos du Travail:
+7. A propos de l'equipe:
 
    7.1 Programmation
       1. NTUMBA BUKASA Emery
