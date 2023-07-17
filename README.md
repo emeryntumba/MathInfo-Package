@@ -5,7 +5,7 @@
 
 Ce présent projet est un travail pratique donné dans le cadre du cours de calculateur dispensé par le Professseur Docteur
 Christian BOPE de l'Université de Kinshasa (UNIKIN), Faculté de sciences, Département de Math-Info, avec la collaboration 
-ses assistants dont: Jacques MAYOMBO et Senghor. 
+de ses assistants dont: Jacques MAYOMBO et Senghor. 
 vu certaines difficultés rencontrées, ce present projet viens relevé certains fleaux. 
 
 
